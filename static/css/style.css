@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+
+@media (max-width: 900px) {
+    .bar, .container, .flex-box {
+        flex-wrap: wrap;
+    }
+
+
+    .container {
+        height: 600px; 
+    }  
+    
+}
+
+.bar {
+    display: flex;
+    padding:5px;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding:20px;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.mov {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.mov p {
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.icon-1 {
+    flex: 3;
+    text-align: center;
+    color: black;
+
+}
+
+.icon-1 a {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.icon-1 a:hover {
+    color: blue;
+}
+
+.icon-2 {
+    flex: 2;
+}
+
+.icon-3 {
+    flex: 1;
+}
+
+/* for detail page */
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-box-1 {
+    font-weight: bold;
+    font-family : "Fira Code";
+    font-size: 25px;
+    color: white;
+    margin: 15px;
+}
+
+.flexy {
+    border: 1px solid grey;
+}
+
+p, a {
+    font-family : "Fira Code";
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.your_css_code {
+    width: 100%;
+    padding: 4px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;   
+}
+
